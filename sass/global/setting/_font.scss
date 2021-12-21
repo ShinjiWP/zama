@@ -1,0 +1,226 @@
+// *{
+// outline: 1px solid red;}
+
+/*
+font-family.font-family.font-family.font-family.font-family.font-family.font-family.
+font-family.font-family.font-family.font-family.font-family.font-family.font-family.
+*/
+
+
+$Roboto: "Roboto", sans-serif;
+$NotoSansJp: "Noto Sans JP", sans-serif;
+
+/*フォントサイズ一覧*/
+/*とりあえずはヘッダー内のフォントサイズを変数に置き換える*/
+
+$title-font-size: 8vw;
+$text-font-size: 1.25vw;
+
+/*
+header内フォントサイズ一覧header内フォントサイズ一覧header内フォントサイズ一覧
+header内フォントサイズ一覧header内フォントサイズ一覧header内フォントサイズ一覧
+*/
+/*clampを使用した変数。もう少し学習が必要*/
+$header-ttl: clamp(16px, (1rem + 5vw), 50px);
+
+/*スマートフォン用*/
+$sp-header-ttl: 10vw;
+$sp-header-slide-btn: 4vw;
+
+/*タブレット用*/
+$tab-header-ttl: min(6vw, 50px);
+$tab-header-slide-btn: min(3vw, 25px);
+
+/*パソコン用*/
+$pc-header-ttl: min(3vw, 40px);
+$pc-header-slide-btn: 0;
+
+/*
+mainvisual内フォントサイズ一覧mainvisual内フォントサイズ一覧mainvisual内フォントサイズ一覧
+mainvisual内フォントサイズ一覧mainvisual内フォントサイズ一覧mainvisual内フォントサイズ一覧
+*/
+
+/*スマートフォン用*/
+$sp-mainvisual-ttl: 8vw;
+$sp-mainvisual-text: 3.5vw;
+
+/*タブレット用*/
+$tab-mainvisual-ttl: 7vw;
+$tab-mainvisual-text: 2vw;
+
+/*パソコン用*/
+$pc-mainvisual-ttl: 3vw;
+$pc-mainvisual-text: 1vw;
+
+/*
+content内フォントサイズ一覧content内フォントサイズ一覧content内フォントサイズ一覧
+content内フォントサイズ一覧content内フォントサイズ一覧content内フォントサイズ一覧
+
+*/
+
+/*スマートフォン用*/
+$sp-content-heading: 7vw;
+$sp-content-ttl: 5vw;
+$sp-content-text: 3vw;
+
+/*タブレット用*/
+$tab-content-heading: 4vw;
+$tab-content-ttl: 2.5vw;
+$tab-content-text: 1.6vw;
+
+/*パソコン用*/
+$pc-content-heading: 3vw;
+$pc-content-ttl: 1.5vw;
+$pc-content-text: 1vw;
+
+
+/*
+archive-heading内フォントサイズ一覧archive-heading内フォントサイズ一覧archive-heading内フォントサイズ一覧
+archive-heading内フォントサイズ一覧archive-heading内フォントサイズ一覧archive-heading内フォントサイズ一覧
+*/
+
+/*スマートフォン用*/
+$sp-archive-ttl: 6vw;
+$sp-archive-text: 3vw;
+
+/*タブレット用*/
+$tab-archive-ttl: 4vw;
+$tab-archive-text: 2vw;
+
+/*パソコン用*/
+$pc-archive-ttl: 2vw;
+$pc-archive-text: 1vw;
+
+
+/*
+single内フォントサイズ一覧single内フォントサイズ一覧single内フォントサイズ一覧
+single内フォントサイズ一覧single内フォントサイズ一覧single内フォントサイズ一覧
+*/
+
+/*スマートフォン用*/
+$sp-single-ttl: 6vw;
+$sp-single-text: 3vw;
+
+/*タブレット用*/
+$tab-single-ttl: 4vw;
+$tab-single-text: 2vw;
+
+/*パソコン用*/
+$pc-single-ttl: 2vw;
+$pc-single-text: 1vw;
+
+
+/*
+card内フォントサイズ一覧card内フォントサイズ一覧card内フォントサイズ一覧
+card内フォントサイズ一覧card内フォントサイズ一覧card内フォントサイズ一覧
+*/
+
+/*スマートフォン用*/
+$sp-card-ttl: 4.5vw;
+$sp-card-subtitle: 4vw;
+$sp-card-text: 3vw;
+$sp-card-btn: 3.5vw;
+
+/*タブレット用*/
+$tab-card-ttl: 2.5vw;
+$tab-card-subtitle: 2vw;
+$tab-card-text: 2vw;
+$tab-card-btn: 2vw;
+
+/*パソコン用*/
+$pc-card-ttl: 1.6vw;
+$pc-card-subtitle: 1vw;
+$pc-card-text: 1vw;
+$pc-card-btn: 1vw;
+
+/*
+sidebar内フォントサイズ一覧sidebar内フォントサイズ一覧sidebar内フォントサイズ一覧
+sidebar内フォントサイズ一覧sidebar内フォントサイズ一覧sidebar内フォントサイズ一覧
+*/
+
+/*スマートフォン用*/
+$sp-sidebar-main: 0;
+$sp-sidebar-secondary: 5vw;
+$sp-sidebar-item:4vw;
+
+/*タブレット用*/
+$tab-sidebar-main: 0;
+$tab-sidebar-secondary: 2.5vw;
+$tab-sidebar-item:2vw;
+
+/*パソコン用*/
+$pc-sidebar-main: 2vw;
+$pc-sidebar-secondary: 1.4vw;
+$pc-sidebar-item:1vw;
+
+
+/*
+access内フォントサイズ一覧access内フォントサイズ一覧access内フォントサイズ一覧
+access内フォントサイズ一覧access内フォントサイズ一覧access内フォントサイズ一覧
+*/
+
+/*スマートフォン用*/
+$sp-access-ttl: 7vw;
+$sp-access-text: 4vw;
+
+/*タブレット用*/
+$tab-access-ttl: 3.5vw;
+$tab-access-text: 2vw;
+
+/*パソコン用*/
+$pc-access-ttl: 1.75vw;
+$pc-access-text: 1vw;
+
+/*
+pager内フォントサイズ一覧pager内フォントサイズ一覧pager内フォントサイズ一覧
+pager内フォントサイズ一覧pager内フォントサイズ一覧pager内フォントサイズ一覧
+*/
+
+/*スマートフォン用*/
+$sp-pager-next-previous: 3vw;
+$sp-pager-icon: 5vw;
+
+
+/*タブレット用*/
+$tab-pager-page: 2vw;
+$tab-pager-icon: 3vw;
+$tab-pager-number: 1.5vw;
+
+/*パソコン用*/
+$pc-pager-page: 1vw;
+$pc-pager-icon: 1.8vw;
+$pc-pager-number: 1vw;
+
+
+
+/*
+single-list内フォントサイズ一覧single-list内フォントサイズ一覧single-list内フォントサイズ一覧
+single-list内フォントサイズ一覧single-list内フォントサイズ一覧single-list内フォントサイズ一覧
+*/
+
+/*スマートフォン用*/
+$sp-single-list: 3vw;
+
+/*タブレット用*/
+$tab-single-list: 2vw;
+
+/*パソコン用*/
+$pc-single-list: 1vw;
+
+
+/*
+code内フォントサイズ一覧code内フォントサイズ一覧code内フォントサイズ一覧
+code内フォントサイズ一覧code内フォントサイズ一覧code内フォントサイズ一覧
+*/
+
+/*スマートフォン用*/
+$sp-code-text: 3vw;
+
+/*タブレット用*/
+$tab-code-text: 2vw;
+
+/*パソコン用*/
+$pc-code-text: 1vw;
+
+
+

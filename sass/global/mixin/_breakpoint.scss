@@ -1,0 +1,22 @@
+/*ブレイクポイントを指定*/
+$pc: 1080px;
+$tab: 600px;
+$sp: 599.9px;
+
+@mixin sp {
+  @media screen and(max-width:($sp)) {
+    @content;
+  }
+}
+
+@mixin tab {
+  @media screen and (min-width: ($tab)) {
+    @content;
+  }
+}
+
+@mixin pc {
+  @media screen and (min-width: ($pc)) {
+    @content;
+  }
+}
