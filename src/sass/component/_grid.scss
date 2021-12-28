@@ -1,0 +1,32 @@
+.c-grid {
+  display: grid;
+  justify-content: center;
+	grid-template:
+  "header" 100px
+  "nav"      auto
+  "intro"    auto
+  "news"   auto
+  "list"       auto
+  "footer"   150px
+  /80%;
+
+	&--header {
+    grid-area: header;
+	}
+
+	&--nav {
+    grid-area: nav;
+	}
+	&--introduce {
+    grid-area: intro;
+	}
+	&--news {
+    grid-area: news;
+	}
+	&--dininglist {
+    grid-area: list;
+	}
+	&--footer {
+    grid-area: footer;
+	}
+}

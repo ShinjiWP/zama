@@ -396,6 +396,30 @@ dl, dd {
   background-color: white;
 }
 
+.c-grid {
+  display: grid;
+  justify-content: center;
+  grid-template: "header" 100px "nav" auto "intro" auto "news" auto "list" auto "footer" 150px/80%;
+}
+.c-grid--header {
+  grid-area: header;
+}
+.c-grid--nav {
+  grid-area: nav;
+}
+.c-grid--introduce {
+  grid-area: intro;
+}
+.c-grid--news {
+  grid-area: news;
+}
+.c-grid--dininglist {
+  grid-area: list;
+}
+.c-grid--footer {
+  grid-area: footer;
+}
+
 .c-image {
   vertical-align: bottom;
   width: 100%;
