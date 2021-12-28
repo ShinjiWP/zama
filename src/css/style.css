@@ -1,7 +1,8 @@
 @charset "UTF-8";
 /*ブレイクポイントを指定*/
-/*バックグラウンド用カラー変数*/
-/*フォント用カラー変数*/
+/*バックグラウンドカラー変数*/
+/*フォントカラー変数*/
+/*ボーダーカラー変数*/
 /*
 font-family.font-family.font-family.font-family.font-family.font-family.font-family.
 font-family.font-family.font-family.font-family.font-family.font-family.font-family.
@@ -170,7 +171,8 @@ abbr[title] {
   /* 1 */
   text-decoration: underline;
   /* 2 */
-  text-decoration: underline dotted;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
   /* 2 */
 }
 
@@ -445,7 +447,11 @@ dl, dd {
   margin: 0;
 }
 
+.bg--green {
+  background-color: red;
+}
+
 .card {
-  color: red;
+  color: green;
 }
 /*# sourceMappingURL=style.css.map */

@@ -19,8 +19,10 @@
   "devDependencies": {
     "browser-sync": "^2.27.7",
     "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
     "gulp-cached": "^1.1.1",
     "gulp-concat": "^2.6.1",
+    "gulp-notify": "^4.0.0",
     "gulp-plumber": "^1.2.1",
     "gulp-sass": "^5.0.0",
     "gulp-sass-glob-use-forward": "^0.1.3",
