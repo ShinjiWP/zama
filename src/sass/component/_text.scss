@@ -1,0 +1,16 @@
+@use '../global/font-size'as f;
+
+.c-text{
+  font-size:f.$text-normal ;
+}
+
+.c-text--underline{
+  font-size:f.$text-normal ;
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+
+.c-text--bold{
+  font-size:f.$text-bold ;
+  font-weight: 700;
+}

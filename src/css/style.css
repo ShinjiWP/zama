@@ -5,89 +5,8 @@
 /*ボーダーカラー変数*/
 /*
 font-family.font-family.font-family.font-family.font-family.font-family.font-family.
-font-family.font-family.font-family.font-family.font-family.font-family.font-family.
 */
 /*フォントサイズ一覧*/
-/*とりあえずはヘッダー内のフォントサイズを変数に置き換える*/
-/*
-header内フォントサイズ一覧header内フォントサイズ一覧header内フォントサイズ一覧
-header内フォントサイズ一覧header内フォントサイズ一覧header内フォントサイズ一覧
-*/
-/*clampを使用した変数。もう少し学習が必要*/
-/*スマートフォン用*/
-/*タブレット用*/
-/*パソコン用*/
-/*
-mainvisual内フォントサイズ一覧mainvisual内フォントサイズ一覧mainvisual内フォントサイズ一覧
-mainvisual内フォントサイズ一覧mainvisual内フォントサイズ一覧mainvisual内フォントサイズ一覧
-*/
-/*スマートフォン用*/
-/*タブレット用*/
-/*パソコン用*/
-/*
-content内フォントサイズ一覧content内フォントサイズ一覧content内フォントサイズ一覧
-content内フォントサイズ一覧content内フォントサイズ一覧content内フォントサイズ一覧
-
-*/
-/*スマートフォン用*/
-/*タブレット用*/
-/*パソコン用*/
-/*
-archive-heading内フォントサイズ一覧archive-heading内フォントサイズ一覧archive-heading内フォントサイズ一覧
-archive-heading内フォントサイズ一覧archive-heading内フォントサイズ一覧archive-heading内フォントサイズ一覧
-*/
-/*スマートフォン用*/
-/*タブレット用*/
-/*パソコン用*/
-/*
-single内フォントサイズ一覧single内フォントサイズ一覧single内フォントサイズ一覧
-single内フォントサイズ一覧single内フォントサイズ一覧single内フォントサイズ一覧
-*/
-/*スマートフォン用*/
-/*タブレット用*/
-/*パソコン用*/
-/*
-card内フォントサイズ一覧card内フォントサイズ一覧card内フォントサイズ一覧
-card内フォントサイズ一覧card内フォントサイズ一覧card内フォントサイズ一覧
-*/
-/*スマートフォン用*/
-/*タブレット用*/
-/*パソコン用*/
-/*
-sidebar内フォントサイズ一覧sidebar内フォントサイズ一覧sidebar内フォントサイズ一覧
-sidebar内フォントサイズ一覧sidebar内フォントサイズ一覧sidebar内フォントサイズ一覧
-*/
-/*スマートフォン用*/
-/*タブレット用*/
-/*パソコン用*/
-/*
-access内フォントサイズ一覧access内フォントサイズ一覧access内フォントサイズ一覧
-access内フォントサイズ一覧access内フォントサイズ一覧access内フォントサイズ一覧
-*/
-/*スマートフォン用*/
-/*タブレット用*/
-/*パソコン用*/
-/*
-pager内フォントサイズ一覧pager内フォントサイズ一覧pager内フォントサイズ一覧
-pager内フォントサイズ一覧pager内フォントサイズ一覧pager内フォントサイズ一覧
-*/
-/*スマートフォン用*/
-/*タブレット用*/
-/*パソコン用*/
-/*
-single-list内フォントサイズ一覧single-list内フォントサイズ一覧single-list内フォントサイズ一覧
-single-list内フォントサイズ一覧single-list内フォントサイズ一覧single-list内フォントサイズ一覧
-*/
-/*スマートフォン用*/
-/*タブレット用*/
-/*パソコン用*/
-/*
-code内フォントサイズ一覧code内フォントサイズ一覧code内フォントサイズ一覧
-code内フォントサイズ一覧code内フォントサイズ一覧code内フォントサイズ一覧
-*/
-/*スマートフォン用*/
-/*タブレット用*/
-/*パソコン用*/
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -447,6 +366,16 @@ dl, dd {
   margin: 0;
 }
 
+.c-bdc--green {
+  border: 1px solid;
+  border-color: green;
+}
+
+.c-bdc--gray {
+  border: 1px solid;
+  border-color: gray;
+}
+
 .c-bg--green {
   background-color: green;
 }
@@ -478,5 +407,21 @@ dl, dd {
 
 .c-square {
   border-radius: 5%;
+}
+
+.c-text {
+  font-size: 1.25vw;
+}
+
+.c-text--underline {
+  font-size: 1.25vw;
+  text-decoration: underline;
+  -webkit-text-decoration-color: black;
+          text-decoration-color: black;
+}
+
+.c-text--bold {
+  font-size: 1.25vw;
+  font-weight: 700;
 }
 /*# sourceMappingURL=style.css.map */

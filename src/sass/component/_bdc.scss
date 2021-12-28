@@ -1,0 +1,11 @@
+@use '../global/color'as c;
+
+.c-bdc--green{
+  border: 1px solid;
+  border-color:c.$bdc-green ;
+}
+
+.c-bdc--gray{
+  border: 1px solid;
+  border-color:c.$bdc-gray ;
+}
