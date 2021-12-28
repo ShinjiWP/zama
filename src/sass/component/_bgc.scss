@@ -1,0 +1,23 @@
+@use '../global/color'as c;
+
+.c-bg--green{
+  background-color: c.$bgc-green;
+}
+
+.c-bg--red{
+  background-color:  c.$bgc-red;
+}
+
+.c-bg--gray{
+  background-color: c.$bgc-gray;
+}
+
+.c-bg--beige{
+  background-color:  c.$bgc-beige;
+}
+
+.c-bg--white{
+  background-color:  c.$bgc-white;
+}
+
+

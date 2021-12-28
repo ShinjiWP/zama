@@ -447,11 +447,36 @@ dl, dd {
   margin: 0;
 }
 
-.bg--green {
+.c-bg--green {
+  background-color: green;
+}
+
+.c-bg--red {
   background-color: red;
 }
 
-.card {
-  color: green;
+.c-bg--gray {
+  background-color: gray;
+}
+
+.c-bg--beige {
+  background-color: beige;
+}
+
+.c-bg--white {
+  background-color: white;
+}
+
+.c-image {
+  vertical-align: bottom;
+  width: 100%;
+}
+
+.c-oval {
+  border-radius: 25%;
+}
+
+.c-square {
+  border-radius: 5%;
 }
 /*# sourceMappingURL=style.css.map */
