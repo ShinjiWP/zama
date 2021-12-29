@@ -11,12 +11,6 @@ $NotoSansJp: "Noto Sans JP", sans-serif;
 
 /*フォントサイズ一覧*/
 
-$text-large: 1.5rem;
-$text-medium: 1.4rem;
-$text-normal: 1.2rem;
-$text-small: 1rem;
-
-$head-h1: 1.5rem;
-$head-h2: 1.4rem;
-$head-h3: 1.3rem;
-$head-h4: 1.2rem;
+$text-large: min(4vw, 25px);
+$text-normal: min(3.5vw, 20px);
+$text-small: min(3vw, 16px);

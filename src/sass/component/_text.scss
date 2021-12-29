@@ -1,17 +1,24 @@
-@use '../global/font-size'as f;
+@use "../global/font-size" as f;
 
-.c-text{
-  font-size:f.$text-normal ;
-  line-height: 1.5;
+.c-text {
+	font-size: f.$text-normal;
+	line-height: 1.5;
+
+	&--small {
+		font-size: f.$text-small;
+	}
+
+	&--large {
+		font-size: f.$text-large;
+	}
+	
+	&--underline {
+		text-decoration: underline;
+		text-decoration-color: black;
+	}
 }
 
-.c-text--underline{
-  font-size:f.$text-normal ;
-  text-decoration: underline;
-  text-decoration-color: black;
-}
-
-.c-text--bold{
-  font-weight: 700;
-}
-
+.c-text--bold {
+		font-weight: 700;
+	}
+  

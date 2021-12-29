@@ -1,4 +1,8 @@
 @use "../global/font-size" as f;
-.c-head--large {
-	font-size: f.$head-h1;
+
+.c-head {
+	text-align: center;
+	&--large {
+		font-size: f.$text-normal;
+	}
 }
