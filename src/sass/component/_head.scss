@@ -1,0 +1,4 @@
+@use "../global/font-size" as f;
+.c-head--large {
+	font-size: f.$head-h1;
+}

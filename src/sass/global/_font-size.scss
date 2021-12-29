@@ -1,16 +1,22 @@
-// *{
-// outline: 1px solid red;}
+// * {
+// 	outline: 1px solid red;
+// }
 
 /*
 font-family.font-family.font-family.font-family.font-family.font-family.font-family.
 */
-
 
 $Roboto: "Roboto", sans-serif;
 $NotoSansJp: "Noto Sans JP", sans-serif;
 
 /*フォントサイズ一覧*/
 
-$text-normal: 1.25vw;
-$text-bold: 1.25vw;
+$text-large: 1.5rem;
+$text-medium: 1.4rem;
+$text-normal: 1.2rem;
+$text-small: 1rem;
 
+$head-h1: 1.5rem;
+$head-h2: 1.4rem;
+$head-h3: 1.3rem;
+$head-h4: 1.2rem;

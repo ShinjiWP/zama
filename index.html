@@ -15,32 +15,36 @@
 	</head>
 	<body class="c-grid">
 		<header>
-			<div class="c-grid--header p-header"><img src="./image/png/header.png" alt="" /></div>
+			<div class="c-grid--header p-header"><img class="c-image" src="./image/png/header.png" alt="ロゴ" /></div>
+			<nav class="c-grid--nav p-nav">
+				<ul class="p-nav__list">
+					<li>子ども食堂を探す</li>
+					<li>お知らせ</li>
+					<li>寄付について</li>
+				</ul>
+			</nav>
 		</header>
-		<nav class="c-grid--nav p-nav">
-			<ul>
-				<li>子ども食堂を探す</li>
-				<li>お知らせ</li>
-				<li>寄付について</li>
-			</ul>
-		</nav>
 		<section class="c-grid--introduce p-introduce">
-			<figure class="p-introduce__image"></figure>
+			<figure class="p-introduce__image"><img class="c-image" src="./image/png/main.png" alt="メインロゴ" /></figure>
 			<figcaption class="p-introduce__description">
-				<h2></h2>
-				<p></p>
+				<div class="c-oval p-label">
+					<h1 class="c-head--large p-heading">座間市子ども食堂ネットワークとは</h1>
+				</div>
+				<p class="c-text">
+					座間市子ども食堂ネットワークは、神奈川県座間市内で「子ども食堂」を運営している団体の情報交換や交流及び、これから「子ども食堂」を立ち上げる団体を応援し、「子ども食堂」の輪を広げることを目的として設立されました。
+				</p>
 			</figcaption>
-			<div class="p-question">
-				<h3></h3>
-				<p></p>
+			<div class="c-bdc--green p-question">
+				<h3 class="p-question__head">子ども食堂とは？</h3>
+				<p class="c-text">子供が一人でも安心して来られる、無料または定額の食堂です。</p>
 			</div>
 		</section>
-		<div class="c-grid--news p-news">
-			<h3>お知らせ</h3>
+		<div class="c-grid--news c-bg--gray p-news">
+			<h3 class="p-news__head">お知らせ</h3>
 			<time datetime="”2021-12-28”" itemprop="”modified”">2021年12月28日</time>
 			<dl>
 				<dt>新型コロナウイルス対策について</dt>
-				<dd>
+				<dd class="c-text">
 					新型コロナウイルスの影響で活動をお休みされている子ども食堂もあります。<br />
 					子ども食堂に行かれる際は、各子ども食堂団体へ事前に確認をされてから利用してください。<br />
 					また、実施の判断をされた子ども食堂団体の皆様は、実施者と参加者のどちらの安全も保てるよう細心の注意を払い、十分にご注意ください。<br />
@@ -69,13 +73,12 @@
 		</article>
 		<footer class="c-grid--footer p-footer">
 			<address>
-				<h4>地域福祉課ボランティアセンター</h4>
+				<h4 class="p-footer__head">地域福祉課ボランティアセンター</h4>
 				<p>
 					社会福祉法人 座間市社会福祉協議会<br />
 					〒000-0000 神奈川県座間市～<br />
 				</p>
-				Mail:<a href="mailto:zama@zama.co.jp">zama@zama.co.jp</a>
-				Tel:<a href="tel:000-000-0000">000-000-0000</a>
+				Mail:<a href="mailto:zama@zama.co.jp">zama@zama.co.jp</a> Tel:<a href="tel:000-000-0000">000-000-0000</a>
 				<small class="">&copy; 座間市社会福祉業議会地域福祉課ボランティアセンター</small>
 			</address>
 		</footer>

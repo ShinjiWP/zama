@@ -1,0 +1,17 @@
+@use '../global/font-size'as f;
+
+.p-introduce {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+  &__head{
+    font-size: f.$head-h1;
+  }
+
+	&__description {
+		@extend .p-introduce;
+		> p {
+			display: block;
+		}
+	}
+}

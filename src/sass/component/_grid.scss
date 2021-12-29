@@ -1,14 +1,16 @@
 .c-grid {
   display: grid;
   justify-content: center;
+  padding: 0 10%;
+  gap: 10px;
 	grid-template:
-  "header" 100px
+  "header" auto
   "nav"      auto
   "intro"    auto
   "news"   auto
   "list"       auto
   "footer"   150px
-  /80%;
+  /minmax(50%,1000px);
 
 	&--header {
     grid-area: header;

@@ -2,6 +2,7 @@
 
 .c-text{
   font-size:f.$text-normal ;
+  line-height: 1.5;
 }
 
 .c-text--underline{
@@ -11,6 +12,6 @@
 }
 
 .c-text--bold{
-  font-size:f.$text-bold ;
   font-weight: 700;
 }
+

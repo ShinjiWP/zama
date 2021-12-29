@@ -1,0 +1,10 @@
+@use '../global/color'as c;
+
+.p-label {
+	text-align: center;
+	width: 100%;
+	border-radius: 20px;
+  height: 40px;
+  line-height: 40px;
+  background-color:c.$bgc-green ;
+}
