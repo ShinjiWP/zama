@@ -2,7 +2,7 @@
 @use "../global/font-size" as f;
 
 .p-cards {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 	&__image {
 		width: 100%;
 	}
@@ -28,6 +28,6 @@
 	&__link {
 		display: flex;
 		justify-content: space-around;
-		margin: 5px 0;
+		margin: 10px 0;
 	}
 }

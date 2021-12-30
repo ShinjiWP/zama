@@ -403,16 +403,13 @@ figure {
 .c-grid {
   display: grid;
   justify-content: center;
-  padding: 0 5%;
-  gap: 25px;
+  padding: 0 3%;
+  gap: 35px;
   overflow-x: hidden;
-  grid-template: "header" auto "nav" auto "intro" auto "news" auto "list" auto "footer" 150px/minmax(50%, 1000px);
+  grid-template: "header" auto "intro" auto "news" auto "list" auto "footer" 150px/minmax(50%, 1000px);
 }
 .c-grid--header {
   grid-area: header;
-}
-.c-grid--nav {
-  grid-area: nav;
 }
 .c-grid--introduce {
   grid-area: intro;
@@ -470,7 +467,7 @@ figure {
 }
 
 .p-cards {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .p-cards__image {
   width: 100%;
@@ -495,7 +492,7 @@ figure {
 .p-cards__link {
   display: flex;
   justify-content: space-around;
-  margin: 5px 0;
+  margin: 10px 0;
 }
 
 .p-dininglist {
@@ -508,8 +505,6 @@ figure {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 120%;
-  margin-left: -10%;
 }
 
 .p-header {
