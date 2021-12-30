@@ -454,7 +454,7 @@ figure {
   font-size: min(2.5vw, 14px);
 }
 .c-text--large {
-  font-size: min(3vw, 20px);
+  font-size: calc(14px + 6 * (100vw - 350px) / 1000);
 }
 .c-text--underline {
   text-decoration: underline;
