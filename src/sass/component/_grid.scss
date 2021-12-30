@@ -1,32 +1,31 @@
 .c-grid {
-  display: grid;
-  justify-content: center;
-  padding: 0 3%;
-  gap: 35px;
-  overflow-x: hidden;
+	display: grid;
+	justify-content: center;
+	padding: 0 3%;
+	gap: 35px;
+	overflow-x: hidden;
 	grid-template:
-  "header" auto
-  "intro"    auto
-  "news"   auto
-  "list"       auto
-  "footer"   150px
-  /minmax(50%,1000px);
+		"header" auto
+		"intro" auto
+		"news" auto
+		"list" auto
+		"footer" 150px
+		/ minmax(50%, 1000px);
 
 	&--header {
-    grid-area: header;
+		grid-area: header;
 	}
 
-	
 	&--introduce {
-    grid-area: intro;
+		grid-area: intro;
 	}
 	&--news {
-    grid-area: news;
+		grid-area: news;
 	}
 	&--dininglist {
-    grid-area: list;
+		grid-area: list;
 	}
 	&--footer {
-    grid-area: footer;
+		grid-area: footer;
 	}
 }
