@@ -1,4 +1,10 @@
-.c-image{
-  vertical-align: bottom;
-  max-width: 100%;
+.c-image {
+	vertical-align: bottom;
+	max-width: 100%;
+	width: 100%;
+
+	&--main {
+		vertical-align: bottom;
+		width: 100%;
+	}
 }

@@ -403,8 +403,9 @@ figure {
 .c-grid {
   display: grid;
   justify-content: center;
-  padding: 0 10%;
+  padding: 0 5%;
   gap: 25px;
+  overflow-x: hidden;
   grid-template: "header" auto "nav" auto "intro" auto "news" auto "list" auto "footer" 150px/minmax(50%, 1000px);
 }
 .c-grid--header {
@@ -429,13 +430,15 @@ figure {
 .c-head {
   text-align: center;
 }
-.c-head--large {
-  font-size: min(3.5vw, 20px);
-}
 
 .c-image {
   vertical-align: bottom;
   max-width: 100%;
+  width: 100%;
+}
+.c-image--main {
+  vertical-align: bottom;
+  width: 100%;
 }
 
 .c-oval {
@@ -447,14 +450,14 @@ figure {
 }
 
 .c-text {
-  font-size: min(3.5vw, 20px);
+  font-size: min(2.8vw, 16px);
   line-height: 1.5;
 }
 .c-text--small {
-  font-size: min(3vw, 16px);
+  font-size: min(2.5vw, 14px);
 }
 .c-text--large {
-  font-size: min(4vw, 25px);
+  font-size: min(3vw, 20px);
 }
 .c-text--underline {
   text-decoration: underline;
@@ -497,7 +500,7 @@ figure {
 
 .p-dininglist {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 10px;
 }
 
@@ -505,6 +508,8 @@ figure {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 120%;
+  margin-left: -10%;
 }
 
 .p-header {
@@ -517,13 +522,22 @@ figure {
   width: 100%;
 }
 
-.p-introduce, .p-introduce__description {
+.p-introduce {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  gap: 10px;
+}
+.p-introduce__head {
+  font-size: min(2.8vw, 16px);
+}
+.p-introduce__image {
+  width: 100%;
+}
+.p-introduce__description {
   display: flex;
   align-items: center;
   flex-direction: column;
-}
-.p-introduce__head {
-  font-size: min(3.5vw, 20px);
+  justify-content: center;
 }
 .p-introduce__description > p {
   display: block;
