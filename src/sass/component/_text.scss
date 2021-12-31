@@ -16,6 +16,12 @@
 		text-decoration: underline;
 		text-decoration-color: black;
 	}
+
+	&--block{
+		display: inline-block;
+		width: 30%;
+		text-align: center;
+	}
 }
 
 .c-text--bold {

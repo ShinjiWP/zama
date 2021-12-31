@@ -27,7 +27,24 @@
 
 	&__link {
 		display: flex;
-		justify-content: space-around;
+		flex-direction: column;
 		margin: 10px 0;
+	}
+
+	&__icon{
+		width: 100%;
+		display: flex;
+		justify-content: space-around;
+		>a{
+			width: 30%;
+			text-align:center;
+			// tap-highlight-color: rgba(0, 0, 0, 0);
+			// -webkit-tap-highlight-color: rgba(227, 227, 228, 0.527);
+		}
+	}
+	
+	&__text{
+		display: flex;
+		justify-content: space-around;
 	}
 }

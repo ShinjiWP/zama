@@ -1,3 +1,11 @@
 .p-news{
  padding: 5%;
+
+ &__title{
+   margin: 10px 0;
+ }
+
+ &__contents{
+   margin: 5px 0;
+ }
 }

@@ -380,6 +380,11 @@ figure {
   border-color: #dfdfdf;
 }
 
+.c-bdc--bottom {
+  border-bottom: 1px solid;
+  border-color: #dfdfdf;
+}
+
 .c-bg--green {
   background-color: #75ce75;
 }
@@ -461,6 +466,11 @@ figure {
   -webkit-text-decoration-color: black;
           text-decoration-color: black;
 }
+.c-text--block {
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+}
 
 .c-text--bold {
   font-weight: 700;
@@ -491,8 +501,21 @@ figure {
 }
 .p-cards__link {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
   margin: 10px 0;
+}
+.p-cards__icon {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.p-cards__icon > a {
+  width: 30%;
+  text-align: center;
+}
+.p-cards__text {
+  display: flex;
+  justify-content: space-around;
 }
 
 .p-dininglist {
@@ -528,13 +551,13 @@ figure {
 .p-introduce__image {
   width: 100%;
 }
-.p-introduce__description {
+.p-introduce__contents {
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
 }
-.p-introduce__description > p {
+.p-introduce__contents > p {
   display: block;
 }
 
@@ -554,6 +577,12 @@ figure {
 
 .p-news {
   padding: 5%;
+}
+.p-news__title {
+  margin: 10px 0;
+}
+.p-news__contents {
+  margin: 5px 0;
 }
 
 .p-question {
