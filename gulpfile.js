@@ -23,7 +23,7 @@ const plumber = require("gulp-plumber"),
 //パスの管理
 const paths = {
 	rootDir: "./",
-	srcDir: { html: "./*.html", css: "./src/sass/**/*.scss", js: "./src/js/*.js" },
+	srcDir: { html: "./*.html", css: "./src/sass/**/*.scss", js: "./src/js/dev/*.js" },
 };
 
 //----------------------------------------------------------------------
@@ -74,9 +74,9 @@ const css = () => {
 
 //jsのコンパイル
 const compile = () => {
-	return src("src/js/*.js") // 結合するjs
+	return src("src/js/dev/*.js") // 結合するjs
 		.pipe(concat("abc.js")) // 結合後のファイル名
-		.pipe(gulp.dest("src/js")); // 結合後のファイルが出力される場所
+		.pipe(gulp.dest("src/js/assets")); // 結合後のファイルが出力される場所
 };
 
 //ブラウザシンクで同期する仮想サーバーの立ち上げ？
@@ -110,7 +110,7 @@ exports.css = css;
 
 exports.compile = compile;
 
-exports.taskrunner = parallel(css, watchFile, server);
+exports.taskrunner = parallel(css, compile, watchFile, server);
 
 /************************************************************************/
 /*  END OF FILE                                                         */
