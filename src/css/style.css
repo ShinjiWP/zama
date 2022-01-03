@@ -485,7 +485,7 @@ figure {
 .p-cards__contents {
   display: flex;
   flex-wrap: wrap;
-  padding: 3%;
+  padding: 10%;
 }
 .p-cards__contents > dt {
   width: 30%;
